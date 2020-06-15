@@ -93,7 +93,7 @@ def convert(size, box):
 datasets/score/images/train/000000109622.jpg  # image
 datasets/score/labels/train/000000109622.txt  # label
 ```
-如果一个标注文件包含5个person了别（person在coco数据集中是排在第一的类别因此index为0）：
+如果一个标注文件包含5个person类别（person在coco数据集中是排在第一的类别因此index为0）：
 
 <img width="500" align="center" alt="Screen Shot 2020-04-01 at 11 44 26 AM" src="./readmepic/readme2/pic/78174482-307bb800-740e-11ea-8b09-840693671042.png">
 
