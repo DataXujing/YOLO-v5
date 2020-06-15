@@ -52,7 +52,7 @@ train: ../datasets/score/images/train/
 val: ../datasets/score/images/val/
 
 # number of classes
-nc: 30
+nc: 3
 
 # class names
 names: ['QP', 'NY', 'QG']
