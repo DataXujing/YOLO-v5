@@ -26,7 +26,7 @@
 
 #### 0.环境配置
 
-安装比较的python package和配置相关环境
+安装必要的python package和配置相关环境
 
 ```
 # python3.6
