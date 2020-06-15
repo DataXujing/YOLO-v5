@@ -197,7 +197,7 @@ def train(hyp):
     c = torch.tensor(labels[:, 0])  # classes
     # cf = torch.bincount(c.long(), minlength=nc) + 1.
     # model._initialize_biases(cf.to(device))
-    plot_labels(labels)
+    # plot_labels(labels)  #<----------------------------close by xujing
     tb_writer.add_histogram('classes', c, 0)
 
     # Exponential moving average
@@ -353,7 +353,8 @@ def train(hyp):
                 os.system('gsutil cp %s gs://%s/weights' % (f2, opt.bucket)) if opt.bucket and ispt else None  # upload
 
     if not opt.evolve:
-        plot_results()  # save as results.png
+        # plot_results()  # save as results.png
+        pass
     print('%g epochs completed in %.3f hours.\n' % (epoch - start_epoch + 1, (time.time() - t0) / 3600))
     dist.destroy_process_group() if torch.cuda.device_count() > 1 else None
     torch.cuda.empty_cache()

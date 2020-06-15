@@ -120,6 +120,8 @@ def detect(save_img=False):
                 if dataset.mode == 'images':
                     cv2.imwrite(save_path, im0)
                 else:
+                    font = cv2.FONT_HERSHEY_SIMPLEX
+                    cv2.putText(im0,"YOLO v5 | by Xujing | Tesla V100 32G",(40,40),font, 0.7, (0, 255, 0), 2)
                     if vid_path != save_path:  # new video
                         vid_path = save_path
                         if isinstance(vid_writer, cv2.VideoWriter):
