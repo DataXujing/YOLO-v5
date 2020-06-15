@@ -48,8 +48,8 @@ pip3 install -U -r requirements.txt
 
  ```ymal
  # train and val datasets (image directory or *.txt file with image paths)
-train: ../datasets/score/images/train/
-val: ../datasets/score/images/val/
+train: ./datasets/score/images/train/
+val: ./datasets/score/images/val/
 
 # number of classes
 nc: 3
