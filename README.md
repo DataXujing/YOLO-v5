@@ -4,6 +4,14 @@
 
 **Xu Jing**
 
+------
+:fire: 由于官方新版YOLO v5的backbone和部分参数调整，导致很多小伙伴下载最新官方预训练模型不可用，这里提供原版的YOLO v5的预训练模型的百度云盘下载地址
+
+链接：https://pan.baidu.com/s/1SDwp6I_MnRLK45QdB3-yNw 
+提取码：423j
+
+------
+
 + YOLOv4还没有退热，YOLOv5已经发布！
 
 + 6月9日，Ultralytics公司开源了YOLOv5，离上一次YOLOv4发布不到50天。而且这一次的YOLOv5是完全基于PyTorch实现的！
