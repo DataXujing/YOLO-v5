@@ -228,6 +228,10 @@ $ python3 detect.py --source test.mp4 --weights weights/yolov5x.pt --conf 0.4
 
 <img width="1000" align="center" alt="Screen Shot 2020-04-01 at 11 44 26 AM" src="./readmepic/readme2/pic/20200514_p6_5_247_one.jpg">
 
+#### 8.YOLOv5的TensorRT加速
+
+[请到这里来](./README_v3.md)
+
 
 **Reference**
 
