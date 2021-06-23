@@ -2,7 +2,9 @@
 
 ### YOLO v5训练自己数据集详细教程
 
-:bug: :bug: 现在YOLOv5 已经更新到5.0版本了，但是其训练方式同本Repo是一致的，只需要按照对应版本全装对应Python环境即可，其数据集的构建，配置文件的修改，训练方式等完全与本Repo一致！
+:bug: :bug: 现在YOLOv5 已经更新到5.0版本了，但是其训练方式同本Repo是一致的，只需要按照对应版本安装对应Python环境即可，其数据集的构建，配置文件的修改，训练方式等完全与本Repo一致！
+
+:bug: :bug: 我们提供了YOLOv5 TensorRT调用和INT8量化的C++和Python代码（其TensorRT加速方式不同于本Repo提供的TensorRT调用方式），有需要的大佬可在issues中留言！
 
 **Xu Jing**
 
