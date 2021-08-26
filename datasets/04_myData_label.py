@@ -10,8 +10,6 @@ import cv2
 # sets=[('myData', 'train'),('myData', 'val'), ('myData', 'test')]  # 根据自己数据去定义
 sets=[('score', 'train'),('score', 'val')]  # 根据自己数据去定义
 
-
-
 class2id = {'QP':0,"NY":1,"QG":2}
 # classes = ["plane", "boat", "person"] # 根据自己的类别去定义
  
