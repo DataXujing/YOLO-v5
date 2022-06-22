@@ -1,5 +1,5 @@
 # pip install -U -r requirements.txt
-numpy==1.17
+numpy==1.22.0
 opencv-python
 torch >= 1.5
 matplotlib
